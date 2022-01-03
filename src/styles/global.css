@@ -15,12 +15,13 @@
 
 body, html {
     font-family: 'Quicksand', sans-serif;
+    background-color: var(--h-white);
 }
 
 .content-center {
     margin-right: auto;
     margin-left: auto;
-    max-width: 1400px;
+    max-width: 1280px;
 }
 
 a {

@@ -10,29 +10,44 @@ const HeaderOptionsList = [
     { type: 'link', value: 'Previous Hackathons', route: '/previous-hackathons' },
 ]
 
+import { FaDiscord, FaGithub } from 'react-icons/fa'
+
 export default function Header() {
     const [headerOptions] = useState(HeaderOptionsList);
     return (
-        <div className="header-component">
-            <div className="header-content-wrapper content-center">
-                <div className="header-logo-wrapper">
-                    <Link to="/">
-                        <h4>Hekors Community</h4>
+        <div className="header-announcement-wrapper">
+            <div className="announcement-bar">
+                <p>
+                    We are participating in MLH Local Hack Day: Build 2022. 
+                    <Link to="/mlh-localhackday-build-2022">
+                        Learn more
                     </Link>
-                </div>
-                <div className="header-options-list-wrapper">
-                    <ul className="header-options-list" style={{ listStyle: "none" }}>
-                        {headerOptions.map((option, index) => {
-                            return (
-                                <Link to={option.route} key={index}>
-                                    <li className="header-option">{option.value}</li>
-                                </Link>
-                            )
-                        })}
-                        <Button onClick={() => window.open('https://discord.gg/cge6rB9RXm')}>
-                            Join Discord
-                        </Button>
-                    </ul>
+                </p>
+            </div>
+            <div className="header-component">
+                <div className="header-content-wrapper content-center">
+                    <div className="header-logo-wrapper">
+                        <Link to="/" style={{ color: 'var(--h-dark)' }}>
+                            <h4>Hekors Community</h4>
+                        </Link>
+                    </div>
+                    <div className="header-options-list-wrapper">
+                        <ul className="header-options-list" style={{ listStyle: "none" }}>
+                            {headerOptions.map((option, index) => {
+                                return (
+                                    <Link to={option.route} key={index}>
+                                        <li className="header-option">{option.value}</li>
+                                    </Link>
+                                )
+                            })}
+                            <Button onClick={() => window.open('https://discord.gg/cge6rB9RXm')}>
+                                <FaGithub /> Join Discord
+                            </Button>
+                            <Button type="plain">
+                                <FaGithub /> Checkout our GitHub
+                            </Button>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
