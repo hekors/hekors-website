@@ -1,0 +1,15 @@
+.header-component {
+  padding: 1.2em;
+}
+.header-component > .header-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.header-component > .header-content-wrapper > .header-options-list-wrapper > ul.header-options-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+}/*# sourceMappingURL=header-style.css.map */
