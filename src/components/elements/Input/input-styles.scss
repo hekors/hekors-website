@@ -1,6 +1,6 @@
 //  ****** This is a scss file for the input element ******
 
-.h-element-input {
+input {
   padding: 0.7rem 1rem;
   border-radius: 0.3rem;
   border: 1px solid var(--h-white);
@@ -12,4 +12,11 @@
     outline: none;
     border: 1px solid var(--h-purple);
   }
+}
+
+.h-element-input-disabled {
+  background-color: var(--h-gray-light);
+  color: var(--h-gray);
+  pointer-events: none;
+  cursor: not-allowed;
 }

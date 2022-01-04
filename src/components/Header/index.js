@@ -15,10 +15,22 @@ export default function Header() {
     const [headerOptions] = useState(HeaderOptionsList);
     return (
         <div className="header-announcement-wrapper">
-            <div className="announcement-bar">
+            <div className="announcement-bar" 
+                style={{
+                    padding: '0.6rem',
+                    display: 'flex',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '1.2rem'
+                }}
+            >
                 <p>
-                    We are participating in MLH Local Hack Day: Build 2022. <Link to="/mlh-localhackday-build-2022">Learn more</Link>
+                    We are participating in MLH Local Hack Day: Build 2022. 
                 </p>
+                <Link to="/mlh-localhackday-build-2022">
+                    <Button>Learn more</Button>
+                </Link>
             </div>
             <div className="header-component">
                 <div className="header-content-wrapper content-center">

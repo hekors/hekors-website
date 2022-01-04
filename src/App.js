@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
+import MLHLocalHackDayBuild2022 from "./pages/Hackathons/MLHLocalHackDayBuild2022";
 import Landing from "./pages/Landing";
-import Test from "./pages/Test";
 
 export default function App() {
   return (
@@ -9,7 +9,12 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/test" element={<Test />} />
+
+        {/* Hackathons: Announcement Pages */}
+        <Route
+          path="/mlh-localhackday-build-2022"
+          element={<MLHLocalHackDayBuild2022 />}
+        />
       </Routes>
     </div>
   );

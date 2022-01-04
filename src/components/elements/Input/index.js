@@ -1,40 +1,55 @@
 import "./input-styles.css";
-export default function Input({ type, placeholder, value, className, id }) {
+export default function Input({
+  type,
+  placeholder,
+  onChange,
+  className,
+  id,
+  style,
+}) {
   let inputPlaceholder = placeholder ? placeholder : "";
   if (type === "password") {
     return (
       <input
         type="password"
-        className={`h-element-input h-element-input_password ${className}`}
+        className={` ${className}`}
         id={id}
         placeholder={inputPlaceholder}
+        onChange={onChange}
+        style={style}
       />
     );
   } else if (type === "email") {
     return (
       <input
         type="email"
-        className={`h-element-input h-element-input_email ${className}`}
+        className={` ${className}`}
         id={id}
         placeholder={inputPlaceholder}
+        onChange={onChange}
+        style={style}
       />
     );
   } else if (type === "number") {
     return (
       <input
         type="number"
-        className={`h-element-input h-element-input_number ${className}`}
+        className={` ${className}`}
         id={id}
         placeholder={inputPlaceholder}
+        onChange={onChange}
+        style={style}
       />
     );
   } else {
     return (
       <input
         type="text"
-        className={`h-element-input h-element-input_text ${className}`}
+        className={`  ${className}`}
         id={id}
         placeholder={inputPlaceholder}
+        onChange={onChange}
+        style={style}
       />
     );
   }
