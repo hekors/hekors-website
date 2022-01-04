@@ -7,7 +7,7 @@ import { FaGithub } from 'react-icons/fa'
 
 const HeaderOptionsList = [
     { type: 'link', value: 'Home', route: '/' },
-    { type: 'link', value: 'About Us', route: '/about-us' },
+    { type: 'link', value: 'Community Stories', route: '/stories' },
     { type: 'link', value: 'Previous Hackathons', route: '/previous-hackathons' },
 ]
 

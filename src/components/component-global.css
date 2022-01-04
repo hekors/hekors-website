@@ -1,3 +1,4 @@
 
 @import url('./elements/Button/button-styles.css');
-/* @import url('./Header/'); */
+@import url('./Header/header-style.css');
+@import url('./BlogCard/blog-card-style.css');

@@ -35,74 +35,25 @@ export default function MLHLocalHackDayBuild2022() {
                 />
             </div> 
             {/* starting: steps container */}
-            <div className="steps-container content-center">
-                <div className="step-01-register-wrapper"
+            <div className="steps-container content-center"></div>
+                <div className="cta-card-wrapper gradient-bg"
                     style={{
+                        padding: '0.8rem 1.4rem',
+                        backgroundColor: 'white',
+                        width: 'fit-content',
+                        marginRight: 'auto',
+                        marginLeft: 'auto',
+                        marginTop: '3rem',
                         display: 'flex',
                         flexDirection: 'row',
                         alignItems: 'center',
-                        justifyContent: 'space-between',
-                        marginRight: 'auto',
-                        marginLeft: 'auto',
-                        marginTop: '4.2rem',
-                        paddingTop: '2.4rem',
-                        paddingBottom: '2.4rem'
+                        gap: '2.4rem',
+                        borderRadius: '16px',
+                        boxShadow: '0 3px 6px 0 rgba(0, 0, 0, 0.2)'
                     }}
                 >
-                    <div className="hero-section-content-wrapper">
-                        <h1 className="hero-section-title" style={{ fontSize: '28px' }}>
-                            Step[0]: Create an account and Register for LocalHackDay: Build (2022)
-                        </h1>
-                        <ul className="steps-list" style={{ marginTop: '2.4rem', lineHeight: '1.4' }}>
-                            <li className="step-item">
-                                Go to <a href="https://localhackday.mlh.io/" target="_blank" rel='noreferrer'>https://localhackday.mlh.io/</a>
-                            </li>
-                            <li className="step-item">
-                                Go to <FaBars /> Menu on the website and Click on <span className="gradient-text">Register</span> or <br />
-                                directly go to <a href="http://hackp.ac/build2022" target="_blank" rel="noreferrer">http://hackp.ac/build2022</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <img src={MLHLHDBuild_Step01}
-                        alt="developer-image" 
-                        style={{ width: '500px', height: 'auto', borderRadius: '16px', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)', padding: '0' }}
-                    />
+                    <h4 className='coming-soon-title' style={{ color: 'var(--h-white)' }}>COMING SOON: 9th January 2022</h4>
                 </div>
-
-                <div className="step-02-register-wrapper"
-                    style={{
-                        display: 'flex',
-                        flexDirection: 'row',
-                        alignItems: 'center',
-                        justifyContent: 'space-between',
-                        marginRight: 'auto',
-                        marginLeft: 'auto',
-                        marginTop: '4.2rem',
-                        paddingTop: '2.4rem',
-                        paddingBottom: '2.4rem'
-                    }}
-                >
-                    <div className="hero-section-content-wrapper">
-                        <h1 className="hero-section-title" style={{ fontSize: '28px' }}>
-                            Step[1]: Login/Create an account and Register
-                        </h1>
-                        <ul className="steps-list" style={{ marginTop: '2.4rem', lineHeight: '1.4' }}>
-                            <li className="step-item">
-                                Go to <a href="https://organize.mlh.io/participants/events/7191-local-hack-day-build-2022" target="_blank" rel='noreferrer'>Login and Register</a>
-                            </li>
-                            <li className="step-item">
-                                Login to your account or Create one if you don't have one. And the Register for the hackathon
-                            </li>
-                        </ul>
-                    </div>
-                    <img src={MLHLHDBuild_Step02}
-                        alt="developer-image" 
-                        style={{ width: '500px', height: 'auto', borderRadius: '16px', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)', padding: '0' }}
-                    />
-                </div>
-                
-                
-            </div>
             {/* ending: steps container */}
         </div>
     )
