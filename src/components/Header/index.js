@@ -39,7 +39,7 @@ export default function Header() {
                             <Button onClick={() => window.open('https://discord.gg/cge6rB9RXm')}>
                                 <FaGithub /> Join Discord
                             </Button>
-                            <Button type="plain">
+                            <Button type="plain" onClick={() => window.open('https://github.com/hekors')}>
                                 <FaGithub /> Checkout our GitHub
                             </Button>
                         </ul>
