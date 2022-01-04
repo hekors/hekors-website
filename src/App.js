@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import Button from "./components/elements/Button";
 import Header from "./components/Header";
 import Landing from "./pages/Landing";
 

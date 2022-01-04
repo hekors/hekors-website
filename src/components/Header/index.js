@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Button from "../elements/Button";
 
 import './header-style.css';
+import { FaGithub } from 'react-icons/fa'
 
 const HeaderOptionsList = [
     { type: 'link', value: 'Home', route: '/' },
@@ -10,18 +11,13 @@ const HeaderOptionsList = [
     { type: 'link', value: 'Previous Hackathons', route: '/previous-hackathons' },
 ]
 
-import { FaDiscord, FaGithub } from 'react-icons/fa'
-
 export default function Header() {
     const [headerOptions] = useState(HeaderOptionsList);
     return (
         <div className="header-announcement-wrapper">
             <div className="announcement-bar">
                 <p>
-                    We are participating in MLH Local Hack Day: Build 2022. 
-                    <Link to="/mlh-localhackday-build-2022">
-                        Learn more
-                    </Link>
+                    We are participating in MLH Local Hack Day: Build 2022. <Link to="/mlh-localhackday-build-2022">Learn more</Link>
                 </p>
             </div>
             <div className="header-component">
