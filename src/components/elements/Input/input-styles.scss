@@ -1,0 +1,22 @@
+//  ****** This is a scss file for the input element ******
+
+input {
+  padding: 0.7rem 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--h-white);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  &:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  }
+  &:focus {
+    outline: none;
+    border: 1px solid var(--h-purple);
+  }
+}
+
+.h-element-input-disabled {
+  background-color: var(--h-gray-light);
+  color: var(--h-gray);
+  pointer-events: none;
+  cursor: not-allowed;
+}
