@@ -16,6 +16,14 @@
 body, html {
     font-family: 'Quicksand', sans-serif;
     background-color: var(--h-white);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+::selection {
+    color: white;
+    background-color: black;
 }
 
 .content-center {

@@ -37,7 +37,7 @@ export default function Landing() {
                 </div>
                 {/* ending: hero section */}
                 {/* starting: CTA Card */}
-                <div className="cta-card-wrapper"
+                <div className="cta-card-wrapper gradient-bg"
                     style={{
                         padding: '1.8rem 2.4rem',
                         backgroundColor: 'white',
@@ -50,10 +50,10 @@ export default function Landing() {
                         alignItems: 'center',
                         gap: '2.4rem',
                         borderRadius: '16px',
-                        boxShadow: '0 3px 6px 0 rgba(0, 0, 0, 0.3)'
+                        boxShadow: '0 3px 6px 0 rgba(0, 0, 0, 0.2)'
                     }}
                 >
-                    <h4 className="cta-title" style={{ width: '40ch' }}>
+                    <h4 className="cta-title" style={{ width: '40ch', color: 'var(--h-white)' }}>
                         Want to get into hackathons, open source, designing, software developer and much more... 
                         You will find someone to collaboarte, for sure.
                     </h4>
