@@ -1,0 +1,22 @@
+
+// color variables for website
+
+:root {
+    --h-dark: #15202B;
+    --h-purple: #7856FF;
+    --h-black: black;
+    --h-white: white;
+
+    --h-pink: #F91880;
+    --h-orange: #FF7A00;
+    --h-blue: #1DA1F2;
+    --h-yellow: #FFD400;
+    --h-green: #00BA7C;
+
+}
+
+.gradient-bg {
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

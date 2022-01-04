@@ -1,0 +1,35 @@
+/* @import url('./properties/cards.css'); */
+@import url('./properties/colors.css');
+/* @import url('./properties/elevations.css'); */
+/* @import url('./properties/input.css'); */
+
+/* component styling */
+@import url('../components/component-global.css');
+
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--h-white);
+}
+
+.content-center {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--h-purple);
+    font-weight: 600;
+}
+
+a:hover {
+    text-transform: underline;
+}

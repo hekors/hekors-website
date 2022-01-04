@@ -1,0 +1,27 @@
+
+.header-announcement-wrapper {
+    > .announcement-bar {
+        text-align: center;
+        padding: 0.2rem;
+        background-color: var(--h-dark);
+        color: var(--h-white);
+        font-weight: 600;
+    }
+    > .header-component {
+        padding: 1.2em;
+        > .header-content-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            > .header-options-list-wrapper {
+                > ul.header-options-list {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 18px;
+                }
+            }
+        }
+    }
+}

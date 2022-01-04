@@ -1,0 +1,32 @@
+.h-element-button, .h-button {
+  border-radius: 4px;
+  transition: all 0.1s ease-in-out;
+  color: white;
+  padding: 0.6em 1.2em;
+  font-weight: 600;
+  font-family: inherit;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.h-element-button:focus, .h-button:focus {
+  outline: none;
+}
+
+.h-element-button_solid {
+  background-color: var(--h-purple);
+}
+.h-element-button_solid:hover {
+  box-shadow: 0 2px 4px 0 rgba(120, 86, 255, 0.6);
+}
+
+.h-element-button_plain {
+  background-color: var(--h-white);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  color: var(--h-dark);
+}
+.h-element-button_plain:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
+}/*# sourceMappingURL=button-styles.css.map */
