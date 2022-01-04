@@ -1,19 +1,22 @@
 :root {
-  --h-dark: #15202B;
-  --h-purple: #7856FF;
+  --h-dark: #15202b;
+  --h-purple: #7856ff;
   --h-black: black;
   --h-white: white;
-  --h-pink: #F91880;
-  --h-orange: #FF7A00;
-  --h-blue: #1DA1F2;
-  --h-yellow: #FFD400;
-  --h-green: #00BA7C;
+  --h-gray: #868e96;
+  --h-pink: #f91880;
+  --h-orange: #ff7a00;
+  --h-blue: #1da1f2;
+  --h-yellow: #ffd400;
+  --h-green: #00ba7c;
 }
 
 .gradient-bg {
-  background: #8E2DE2;
+  background: #8e2de2;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: -webkit-gradient(linear, left top, right top, from(#4a00e0), to(#8e2de2));
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}/*# sourceMappingURL=colors.css.map */
+}
+/*# sourceMappingURL=colors.css.map */
