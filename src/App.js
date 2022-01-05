@@ -12,8 +12,11 @@ export default function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/stories" element={<CommunityStories />} />
         {/* Hackathons: Announcement Pages */}
-        <Route path="/mlh-localhackday-build-2022" element={<MLHLocalHackDayBuild2022 />} />
+        <Route
+          path="/mlh-localhackday-build-2022"
+          element={<MLHLocalHackDayBuild2022 />}
+        />
       </Routes>
     </div>
-  )
+  );
 }
