@@ -55,7 +55,7 @@ export default function Landing() {
                 >
                     <h4 className="cta-title" style={{ width: '40ch', color: 'var(--h-white)' }}>
                         Want to get into hackathons, open source, designing, software developer and much more... 
-                        You will find someone to collaboarte, for sure.
+                        You will find someone to collaborate with, for sure.
                     </h4>
                     <div className="cta-buttons-wrapper" 
                         style={{ 
