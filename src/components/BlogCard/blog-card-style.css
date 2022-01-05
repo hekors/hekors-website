@@ -1,0 +1,20 @@
+.blog-card-component {
+  padding: 1.8rem 2.4rem;
+  background-color: white;
+  width: 480px;
+  border-radius: 16px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.blog-card-component > .blog-card-header {
+  width: 100%;
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1.2rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.blog-card-component > .blog-card-header > img {
+  width: 46px;
+  border-radius: 50%;
+}/*# sourceMappingURL=blog-card-style.css.map */
