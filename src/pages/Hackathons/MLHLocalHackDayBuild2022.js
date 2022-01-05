@@ -1,8 +1,4 @@
-import { FaBars } from "react-icons/fa";
-import MLHLHDBuild_Step01 from "../../assets/mlh_localhackday_step01.svg";
-import MLHLHDBuild_Step02 from "../../assets/mlh_localhackday_step02.svg";
-import Button from "../../components/elements/Button";
-import Input from "../../components/elements/Input";
+import ReactTooltip from "react-tooltip";
 
 export default function MLHLocalHackDayBuild2022() {
   return (
@@ -66,7 +62,27 @@ export default function MLHLocalHackDayBuild2022() {
                 borderRadius: '16px',
                 boxShadow: '0 3px 6px 0 rgba(0, 0, 0, 0.2)'
             }}
+            data-for="coming-soon-tooltip"
+            data-tip=''
         >
+          <ReactTooltip id="coming-soon-tooltip">
+            <img
+              src="https://64.media.tumblr.com/70de0514300ee05d753212f849924dbb/tumblr_p5ij1wma6b1w0en56o1_1280.png"
+              alt="developer-image"
+              style={{
+                width: "420px",
+                height: "auto",
+                borderRadius: "16px",
+                boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
+              }}
+            />
+            <h3 style={{ marginTop: '0.2rem', textAlign: 'center' }}>We know you are waiting for this year's LHD: Build</h3>
+            <h5 style={{ marginTop: '0.2rem', textAlign: 'center' }}>It's going to start from 9th January, 2022</h5>
+            <p style={{ marginTop: '0.2rem', textAlign: 'center' }}>
+              We will share all the details to join HEKORS' Guild, <br />
+              meanwhile you can regsiter for the event at: localhackday.mlh.io/build
+            </p>
+          </ReactTooltip>
             <h4 className='coming-soon-title' style={{ color: 'var(--h-white)' }}>COMING SOON: 9th January 2022</h4>
         </div>
       {/* ending: steps container */}
