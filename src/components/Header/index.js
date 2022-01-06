@@ -9,6 +9,7 @@ const HeaderOptionsList = [
   { type: "link", value: "Home", route: "/" },
   { type: "link", value: "Community Stories", route: "/stories" },
   { type: "link", value: "Previous Hackathons", route: "/previous-hackathons" },
+  { type: "link", value: "Community Members", route: "/members" }
 ];
 
 export default function Header() {
