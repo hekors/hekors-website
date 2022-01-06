@@ -17,6 +17,8 @@
   background: #8e2de2;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#4a00e0), to(#8e2de2));
   background: linear-gradient(to right, #4a00e0, #8e2de2);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}/*# sourceMappingURL=colors.css.map */
+}
+/*# sourceMappingURL=colors.css.map */

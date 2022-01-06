@@ -1,0 +1,50 @@
+[
+  {
+     "id":"1",
+     "name":"Sumit Singh",
+     "avatar":"https://avatars.githubusercontent.com/u/76095902?v=4",
+     "about":"Frontend Developer & Open-Source Enthusiast",
+     "email":"sumikumar1608@gmail.com",
+     "website":"wh0sumit.me"
+  },
+  {
+     "id":"2",
+     "name":"Yash Sehgal",
+     "avatar":"https://avatars.githubusercontent.com/u/62352288?v=4",
+     "about":"Frontend Developer & UX-UI Developer",
+     "email":"yashsehgal.work@gmail.com",
+     "website":"yashsehgal.com"
+  },
+  {
+     "id":"3",
+     "name":"Atharva Gadkari",
+     "avatar":"https://avatars.githubusercontent.com/u/76095902?v=4",
+     "about":"Backend Developer & Open-Source Enthusiast",
+     "email":"",
+     "website":"atharvagadkari.com"
+  },
+  {
+     "id":"4",
+     "name":"Ishan Soni",
+     "avatar":"https://avatars.githubusercontent.com/u/65131563?v=4",
+     "about":"Full Stack Developer",
+     "email":"soni99ishan@gmail.com",
+     "website":"ishansoni.com"
+  },
+  {
+     "id":"5",
+     "name":"Ayush Soni",
+     "avatar":"https://avatars.githubusercontent.com/u/76895975?v=4",
+     "about":"Frontend Developer",
+     "email":"",
+     "website":"ayushsoni.com"
+  },
+  {
+     "id":"6",
+     "name":"Jaspreet Singh Saini",
+     "avatar":"https://avatars.githubusercontent.com/u/75212002?v=4",
+     "about":"Graphic Designer & Frontend Developer",
+     "email":"",
+     "website":"jaspreet"
+  }
+]

@@ -2,14 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../elements/Button";
 
-import './header-style.css';
-import { FaGithub } from 'react-icons/fa'
+import "./header-style.css";
+import { FaGithub } from "react-icons/fa";
 
 const HeaderOptionsList = [
-    { type: 'link', value: 'Home', route: '/' },
-    { type: 'link', value: 'Community Stories', route: '/stories' },
-    { type: 'link', value: 'Previous Hackathons', route: '/previous-hackathons' },
-]
+  { type: "link", value: "Home", route: "/" },
+  { type: "link", value: "Community Stories", route: "/stories" },
+  { type: "link", value: "Previous Hackathons", route: "/previous-hackathons" },
+];
 
 export default function Header() {
     const [headerOptions] = useState(HeaderOptionsList);
@@ -59,5 +59,5 @@ export default function Header() {
                 </div>
             </div>
         </div>
-    )
+  );
 }
