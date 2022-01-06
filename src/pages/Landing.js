@@ -63,7 +63,9 @@ export default function Landing() {
                             flexDirection: 'row',
                             gap: '1.2rem'
                         }}>
-                        <Button><FaDiscord /> Join Discord</Button>
+                        <Button
+                            onClick={() => window.open('https://discord.gg/cge6rB9RXm')}
+                        ><FaDiscord /> Join Discord</Button>
                         <Button type="plain"><FaFire /> Our Testimonials</Button>
                     </div>
                 </div>
