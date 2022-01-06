@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Members.css";
 import Button from "../../components/elements/Button";
 import ImgCircle from "../../components/elements/CircleImage";
@@ -21,7 +21,7 @@ export default function Members() {
   }, []);
 
   return (
-    <>
+    <React.Fragment>
       <div
         className="content-center text-center w-50 rounded-5 gradient-bg"
         style={{
@@ -53,17 +53,17 @@ export default function Members() {
             marginTop: "2rem",
           }}
         >
-          <Link to="https://github.com/hekors/join-github-org">
-            <Button type="plain">
-              {" "}
-              <FaGithub
-                style={{
-                  fontSize: ".9rem",
-                }}
-              />{" "}
-              Join our github organization{" "}
-            </Button>
-          </Link>
+          <Button type="plain"
+            onClick={() => window.open('https://github.com/hekors/join-github-org')}
+          >
+            {" "}
+            <FaGithub
+              style={{
+                fontSize: ".9rem",
+              }}
+            />{" "}
+            Join our github organization{" "}
+          </Button>
         </div>
       </div>
 
@@ -144,6 +144,6 @@ export default function Members() {
         </div>
       </div>
       {/*Community Members End */}
-    </>
+    </React.Fragment>
   );
 }
