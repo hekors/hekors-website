@@ -1,0 +1,28 @@
+.members-list-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.founding-team-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  .text-wrapper {
+    width: 50%;
+  }
+  .img-wrapper {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
