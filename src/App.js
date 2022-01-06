@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
+import Footer from './components/Footer';
 import CommunityStories from "./pages/CommunityStories";
 import MLHLocalHackDayBuild2022 from "./pages/Hackathons/MLHLocalHackDayBuild2022";
 import Landing from "./pages/Landing";
@@ -17,6 +18,7 @@ export default function App() {
           element={<MLHLocalHackDayBuild2022 />}
         />
       </Routes>
+      <Footer />
     </div>
   );
 }

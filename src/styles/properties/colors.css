@@ -4,6 +4,7 @@
   --h-black: black;
   --h-white: white;
   --h-gray: #868e96;
+  --h-gray-light: #e2e2e2;
   --h-pink: #f91880;
   --h-orange: #ff7a00;
   --h-blue: #1da1f2;
@@ -16,7 +17,6 @@
   background: #8e2de2;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#4a00e0), to(#8e2de2));
   background: linear-gradient(to right, #4a00e0, #8e2de2);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }/*# sourceMappingURL=colors.css.map */
