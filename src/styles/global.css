@@ -52,3 +52,27 @@ a:hover {
 .justify-content-between {
     justify-content: space-between;
 }
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.rounded-5 {
+    border-radius: 5px;
+}
