@@ -27,6 +27,7 @@ export default function ImgCircle({
         />
       </a>
 
+      {/* // Tooltip for images  */}
       <ReactTooltip id={`${id}`}>
         {name ? <h5>{name}</h5> : null}
 
