@@ -1,6 +1,5 @@
 import { FaDiscord, FaFire } from "react-icons/fa";
 import Button from "../components/elements/Button";
-import ImgCircle from "../components/elements/CircleImage";
 
 export default function Landing() {
   return (
@@ -86,7 +85,9 @@ export default function Landing() {
               gap: "1.2rem",
             }}
           >
-            <Button>
+            <Button
+              onClick={() => window.open("https://discord.gg/cge6rB9RXm")}
+            >
               <FaDiscord /> Join Discord
             </Button>
             <Button type="plain">

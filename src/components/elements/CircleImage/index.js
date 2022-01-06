@@ -2,7 +2,9 @@ import "./CircleImage.css";
 import ReactTooltip from "react-tooltip";
 
 export default function ImgCircle({
+  id,
   link,
+  name,
   img,
   alt,
   borderColor,
@@ -17,18 +19,22 @@ export default function ImgCircle({
           alt={alt}
           className="h-img-circle"
           style={{
-            border: `7px solid ${borderColor}`,
+            border: `4px solid ${borderColor}`,
             margin: "0.5rem",
           }}
-          data-for={`${githubUserName}`}
+          data-for={`${id}`}
           data-tip=""
         />
       </a>
 
-      <ReactTooltip id={`${githubUserName}`}>
-        <h5 style={{ marginTop: "0.2rem", textAlign: "center" }}>
-          Github Username : {githubUserName}
-        </h5>
+      <ReactTooltip id={`${id}`}>
+        {name ? <h5>{name}</h5> : null}
+
+        {githubUserName ? (
+          <h5 style={{ marginTop: "0.2rem", textAlign: "center" }}>
+            Github Username : {githubUserName}
+          </h5>
+        ) : null}
       </ReactTooltip>
     </>
   );

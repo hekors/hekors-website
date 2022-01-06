@@ -45,6 +45,7 @@ a:hover {
     text-transform: underline;
 }
 
+/* Flex Box  */
 .d-flex {
     display: flex;
 }
@@ -57,10 +58,6 @@ a:hover {
     justify-content: center;
 }
 
-.text-center {
-    text-align: center;
-}
-
 .flex-column {
     flex-direction: column;
 }
@@ -69,10 +66,41 @@ a:hover {
     flex-direction: row;
 }
 
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+
+
 .w-50 {
     width: 50%;
 }
 
+/* border radius  */
 .rounded-5 {
     border-radius: 5px;
+}
+
+
+/* media queries for non responsive design */
+div.view-msg {
+    display: none;
+    width: 80%;
+    margin: 50% auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    div.view__app-container {
+        display: none;
+    }
+
+    div.view-msg {
+        display: block;
+    }
 }

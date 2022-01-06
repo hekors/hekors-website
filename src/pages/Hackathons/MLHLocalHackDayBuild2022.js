@@ -1,4 +1,6 @@
 import ReactTooltip from "react-tooltip";
+import Button from '../../components/elements/Button';
+import GuildScreenshot from '../../assets/GuildSS.svg';
 
 export default function MLHLocalHackDayBuild2022() {
   return (
@@ -45,16 +47,15 @@ export default function MLHLocalHackDayBuild2022() {
           }}
         />
       </div>
-      {/* starting: steps container */}
       <div className="steps-container content-center"></div>
-        <div className="cta-card-wrapper gradient-bg"
+      <div className="cta-card-wrapper gradient-bg"
             style={{
-                padding: '0.8rem 1.4rem',
+                padding: '1.8rem 2.4rem',
                 backgroundColor: 'white',
                 width: 'fit-content',
                 marginRight: 'auto',
                 marginLeft: 'auto',
-                marginTop: '3rem',
+                marginTop: '2.4rem',
                 display: 'flex',
                 flexDirection: 'row',
                 alignItems: 'center',
@@ -62,30 +63,48 @@ export default function MLHLocalHackDayBuild2022() {
                 borderRadius: '16px',
                 boxShadow: '0 3px 6px 0 rgba(0, 0, 0, 0.2)'
             }}
-            data-for="coming-soon-tooltip"
-            data-tip=''
         >
-          <ReactTooltip id="coming-soon-tooltip">
-            <img
-              src="https://64.media.tumblr.com/70de0514300ee05d753212f849924dbb/tumblr_p5ij1wma6b1w0en56o1_1280.png"
-              alt="developer-image"
-              style={{
-                width: "420px",
-                height: "auto",
-                borderRadius: "16px",
-                boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
-              }}
-            />
-            <h3 style={{ marginTop: '0.2rem', textAlign: 'center' }}>We know you are waiting for this year's LHD: Build</h3>
-            <h5 style={{ marginTop: '0.2rem', textAlign: 'center' }}>It's going to start from 9th January, 2022</h5>
-            <p style={{ marginTop: '0.2rem', textAlign: 'center' }}>
-              We will share all the details to join HEKORS' Guild, <br />
-              meanwhile you can regsiter for the event at: localhackday.mlh.io/build
-            </p>
-          </ReactTooltip>
-            <h4 className='coming-soon-title' style={{ color: 'var(--h-white)' }}>COMING SOON: 9th January 2022</h4>
+            <h4 className="cta-title" style={{ width: '40ch', color: 'var(--h-white)' }}>
+                MLH LHD: Build is here, Get ready
+            </h4>
+            <div className="cta-buttons-wrapper" 
+                style={{ 
+                    display: 'flex',
+                    flexDirection: 'row',
+                    gap: '1.2rem'
+                }}>
+                <Button
+                  onClick={() => window.open('https://localhackday.mlh.io/build')}
+                >Register for the Hackathon</Button>
+                <span
+                  data-for='hekors-guild-alert'
+                  data-tip=''
+                >
+                  <Button type="plain"
+                    onClick={() => window.open('https://discord.mlh.io')}
+                  >
+                    Join MLH Discord
+                    <ReactTooltip id='hekors-guild-alert'>
+                    <img
+                      src={GuildScreenshot}
+                      alt="developer-image"
+                      style={{
+                        width: "400px",
+                        height: "auto",
+                        borderRadius: "16px",
+                        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
+                      }}
+                    />
+                      <h5>
+                        Don't forget to select HEKORS as a Guild <br />
+                        while joining the server
+                      </h5>
+                    </ReactTooltip>
+                  </Button>
+                </span>
+            </div>
         </div>
-      {/* ending: steps container */}
+
     </div>
   );
 }
