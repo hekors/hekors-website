@@ -15,7 +15,7 @@ export default function Landing() {
                         width: '90%',
                         marginRight: 'auto',
                         marginLeft: 'auto',
-                        marginTop: '2rem',
+                        marginTop: '3.4rem',
                         paddingTop: '2.4rem',
                         paddingBottom: '2.4rem'
                     }}
