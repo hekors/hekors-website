@@ -52,7 +52,9 @@ export default function Header() {
                             <Button onClick={() => window.open('https://discord.gg/cge6rB9RXm')}>
                                 <FaGithub /> Join Discord
                             </Button>
-                            <Button type="plain" style={{ backgroundColor: 'black', color: 'white' }}>
+                            <Button type="plain" style={{ backgroundColor: 'black', color: 'white' }}
+                                onClick={() => window.open('https://hekors.substack.com')}
+                            >
                                 Subscribe to Newsletter
                             </Button>
                         </ul>
