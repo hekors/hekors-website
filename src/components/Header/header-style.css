@@ -5,38 +5,18 @@
   color: var(--h-white);
   font-weight: 600;
 }
-
 .header-announcement-wrapper > .header-component {
   padding: 1.2em;
 }
-
 .header-announcement-wrapper > .header-component > .header-content-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
-
 .header-announcement-wrapper > .header-component > .header-content-wrapper > .header-options-list-wrapper > ul.header-options-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  align-items: center;
   gap: 18px;
-}
-/*# sourceMappingURL=header-style.css.map */
+}/*# sourceMappingURL=header-style.css.map */

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,CAAC;EACZ,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC,kBAAkB;CAI3C;;AARD,AAKE,aALW,AAKV,MAAM,CAAC;EACN,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC,kBAAkB;CAC3C",
-    "sources": [
-        "CircleImage.scss"
-    ],
-    "names": [],
-    "file": "CircleImage.css"
-}
+{"version":3,"sources":["CircleImage.scss"],"names":[],"mappings":"AAAA;EACE,kBAAA;EACA,WAAA;EACA,YAAA;EACA,0CAAA;AACF;AAAE;EACE,0CAAA;AAEJ","file":"CircleImage.css"}
