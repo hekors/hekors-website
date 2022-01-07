@@ -1,70 +1,81 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# HEKORS
 
-## Available Scripts
+Welcome to the repository of Hekors Website
 
-In the project directory, you can run:
+# About Hekors Community
+ - Hekors is a rapidly rising community of developers, designers, and enthusiastic people of the modern age technology world. 
+ - Members of Hekors community actively participate in various hackathons, events & numerous competitions. 
+ - The members also love to contribute to open-source projects.
+ - We also do sessions & online events on various topics such as coding, graphic designing, tutorials for beginners, and much more exciting stuff.
 
-### `npm start`
+ ## Our Tech Stack
+ Hekors is proudly built with ***ReactJS***, ***SCSS*** & ***Vanilla Javascript***.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Step 3: In the project directory, run `npm start`. Open http://localhost:3000 to view it in your browser.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup the Local Development Environment.
 
-### `npm run build`
+***To deploy this project on your local system, follow the steps:***
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Step 1: [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Step 2: After forking the repository, [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) it to your local system. 
+  ```bash
+  git clone https://github.com/hekors/hekors-website
+  ```
+- Step 3: Set remotes (origin, upstream) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Step 4: 
+Install dependencies
 
-### `npm run eject`
+  ```bash
+  npm install
+  ```
+- Step 5:  Start the server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ```bash
+  npm run start
+  ```
+- Step 6: Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Team
+ The people behind making Hekor.
+- [@ayushsoni1010](https://www.github.com/ayushsoni1010)
+- [@ItsMeIshan](https://www.github.com/ItsMeIshan)
+- [@siddakbagga13](https://www.github.com/siddakbagga13)
+- [@snehafarkya](https://www.github.com/snehafarkya)
+- [@WH0SUMIT](https://www.github.com/WH0SUMIT)
+- [@yashsehgal](https://www.github.com/yashsehgal)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributors
+ The people making the Hekor community better day by day.
+- [@WH0SUMIT](https://www.github.com/WH0SUMIT)
+- [@yashsehgal](https://www.github.com/yashsehgal)
+- [@Subodh1911](https://www.github.com/Subodh1911)
+- [@ishaanbedi](https://www.github.com/ishaanbedi)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How to contribute
 
-### Code Splitting
+Contributions are always welcome & are much appreciated by the Hekor community!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+See [`contributing.md`](https://www.example.com) for ways to get started.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Connect with us
 
-### Making a Progressive Web App
+You are most welcome to join Hekor & be a part of our community.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+There are multiple ways to connect with us: 
 
-### Advanced Configuration
+- [Website](https://www.example.com)
+- [Instagram](https://www.example.com)
+- [Twitter](https://www.example.com)
+- [Discord](https://www.example.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### ***HEKOR is looking forward to you joining us and being a part of our community of like-minded people and learning a lot of new things & growing together with our members.***
