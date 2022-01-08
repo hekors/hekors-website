@@ -24,7 +24,7 @@ Welcome to the repository of HEKORS Website
 
 - Step 2: After forking the repository, [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) it to your local system. 
   ```bash
-  git clone https://github.com/hekors/hekors-website
+  git clone https://github.com/<USERNAME>/hekors-website
   ```
 - Step 3: Set remotes (origin, upstream) 
 
