@@ -73,9 +73,8 @@ You are most welcome to join HEKORS & be a part of our community.
 
 There are multiple ways to connect with us: 
 
-- [Website](https://www.example.com)
-- [Instagram](https://www.example.com)
-- [Twitter](https://www.example.com)
-- [Discord](https://www.example.com)
+- [Website](https://hekors.vercel.app/)
+- [Discord](https://discord.gg/cge6rB9RXm)
+- Twitter: Coming Soon
 
 ### ***HEKORS is looking forward to you joining us and being a part of our community of like-minded people and learning a lot of new things & growing together with our members.***
