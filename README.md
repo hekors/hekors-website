@@ -42,24 +42,6 @@ Install dependencies
 - Step 6: Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
-## Team
- The people behind making HEKORS.
-- [@ayushsoni1010](https://www.github.com/ayushsoni1010)
-- [@ItsMeIshan](https://www.github.com/ItsMeIshan)
-- [@siddakbagga13](https://www.github.com/siddakbagga13)
-- [@snehafarkya](https://www.github.com/snehafarkya)
-- [@WH0SUMIT](https://www.github.com/WH0SUMIT)
-- [@yashsehgal](https://www.github.com/yashsehgal)
-
-## Contributors
- The people making the HEKORS community better day by day.
-- [@WH0SUMIT](https://www.github.com/WH0SUMIT)
-- [@yashsehgal](https://www.github.com/yashsehgal)
-- [@Subodh1911](https://www.github.com/Subodh1911)
-- [@ishaanbedi](https://www.github.com/ishaanbedi)
-
-
-
 ## How to contribute
 
 Contributions are always welcome & are much appreciated by the HEKORS community!
