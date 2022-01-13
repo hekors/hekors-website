@@ -3,6 +3,9 @@
 
 Welcome to the repository of HEKORS Website
 
+![Header Image](https://res.cloudinary.com/dhfhotfqs/image/upload/v1641785483/Github/unknown_byvazw.png)
+
+
 # About HEKORS Community
  - HEKORS is a rapidly rising community of developers, designers, and enthusiastic people of the modern age technology world. 
  - Members of HEKORS community actively participate in various hackathons, events & numerous competitions. 
@@ -11,10 +14,6 @@ Welcome to the repository of HEKORS Website
 
  ## Our Tech Stack
  HEKORS is proudly built with ***ReactJS***, ***SCSS*** & ***Vanilla Javascript***.
-
-
-- Step 3: In the project directory, run `npm start`. Open http://localhost:3000 to view it in your browser.
-
 
 ## Setup the Local Development Environment.
 
@@ -46,7 +45,6 @@ Install dependencies
 
 Contributions are always welcome & are much appreciated by the HEKORS community!
 
-See [`contributing.md`](https://www.example.com) for ways to get started.
 
 
 ## Connect with us
