@@ -16,7 +16,7 @@ export default function Header() {
     const [headerOptions] = useState(HeaderOptionsList);
     return (
         <div className="header-announcement-wrapper">
-            <div className="announcement-bar" 
+            {/* <div className="announcement-bar" 
                 style={{
                     padding: '0.6rem',
                     display: 'flex',
@@ -32,7 +32,7 @@ export default function Header() {
                 <Link to="/mlh-localhackday-build-2022">
                     <Button>Learn more</Button>
                 </Link>
-            </div>
+            </div> */}
             <div className="header-component">
                 <div className="header-content-wrapper content-center">
                     <div className="header-logo-wrapper">

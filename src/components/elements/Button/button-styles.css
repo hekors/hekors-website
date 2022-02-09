@@ -10,10 +10,9 @@
   align-items: center;
   justify-content: center;
   gap: 6px;
+  outline-style: solid;
+  outline-offset: 3px;
   cursor: pointer;
-}
-.h-element-button:focus, .h-button:focus {
-  outline: none;
 }
 
 .h-element-button_solid {
@@ -21,6 +20,9 @@
 }
 .h-element-button_solid:hover {
   box-shadow: 0 2px 4px 0 rgba(120, 86, 255, 0.6);
+}
+.h-element-button_solid:focus {
+  outline-color: rgba(120, 86, 255, 0.6);
 }
 
 .h-element-button_plain {
@@ -30,4 +32,7 @@
 }
 .h-element-button_plain:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
+}
+.h-element-button_plain:focus {
+  outline-color: rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=button-styles.css.map */
