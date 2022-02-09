@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import CommunityStories from "./pages/CommunityStories";
 import MLHLocalHackDayBuild2022 from "./pages/Hackathons/MLHLocalHackDayBuild2022";
 import Landing from "./pages/Landing";
+import PreviousHackathons from "./pages/PreviousHackathons";
 
 export default function App() {
   return (
@@ -24,8 +25,11 @@ export default function App() {
             element={<MLHLocalHackDayBuild2022 />}
           />
 
-          {/* Hackathons: Members Pages */}
+          {/* Members Page */}
           <Route path="/members" element={<Members />} />
+
+          {/* Previous Hackathons Page */}
+          <Route path="/previous-hackathons" element={<PreviousHackathons />} />
         </Routes>
         <Footer />
       </div>
