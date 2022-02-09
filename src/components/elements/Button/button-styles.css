@@ -1,46 +1,39 @@
 .h-element-button, .h-button {
   border-radius: 4px;
-  -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   color: white;
   padding: 0.6em 1.2em;
   font-weight: 600;
   font-family: inherit;
   border: 2px solid transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   gap: 6px;
-}
-
-.h-element-button:focus, .h-button:focus {
-  outline: none;
+  outline-style: solid;
+  outline-offset: 3px;
+  outline-color: transparent;
+  cursor: pointer;
 }
 
 .h-element-button_solid {
   background-color: var(--h-purple);
 }
-
 .h-element-button_solid:hover {
-  -webkit-box-shadow: 0 2px 4px 0 rgba(120, 86, 255, 0.6);
-          box-shadow: 0 2px 4px 0 rgba(120, 86, 255, 0.6);
+  box-shadow: 0 2px 4px 0 rgba(120, 86, 255, 0.6);
+}
+.h-element-button_solid:focus {
+  outline-color: rgba(120, 86, 255, 0.6);
 }
 
 .h-element-button_plain {
   background-color: var(--h-white);
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
   color: var(--h-dark);
 }
-
 .h-element-button_plain:hover {
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
 }
-/*# sourceMappingURL=button-styles.css.map */
+.h-element-button_plain:focus {
+  outline-color: rgba(0, 0, 0, 0.2);
+}/*# sourceMappingURL=button-styles.css.map */

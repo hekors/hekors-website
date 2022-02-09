@@ -16,7 +16,7 @@ export default function Header() {
     const [headerOptions] = useState(HeaderOptionsList);
     return (
         <div className="header-announcement-wrapper">
-            <div className="announcement-bar" 
+            {/* <div className="announcement-bar" 
                 style={{
                     padding: '0.6rem',
                     display: 'flex',
@@ -32,7 +32,7 @@ export default function Header() {
                 <Link to="/mlh-localhackday-build-2022">
                     <Button>Learn more</Button>
                 </Link>
-            </div>
+            </div> */}
             <div className="header-component">
                 <div className="header-content-wrapper content-center">
                     <div className="header-logo-wrapper">
@@ -52,7 +52,9 @@ export default function Header() {
                             <Button onClick={() => window.open('https://discord.gg/cge6rB9RXm')}>
                                 <FaGithub /> Join Discord
                             </Button>
-                            <Button type="plain" style={{ backgroundColor: 'black', color: 'white' }}>
+                            <Button type="plain" style={{ backgroundColor: 'black', color: 'white' }}
+                                onClick={() => window.open('https://hekors.substack.com')}
+                            >
                                 Subscribe to Newsletter
                             </Button>
                         </ul>

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "cards.scss"
-    ],
-    "names": [],
-    "file": "cards.css"
-}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"cards.css"}
