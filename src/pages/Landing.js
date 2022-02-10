@@ -90,7 +90,9 @@ export default function Landing() {
             >
               <FaDiscord /> Join Discord
             </Button>
-            <Button type="plain">
+            <Button type="plain" onClick={() => {
+              window.location.href = '/testimonials';
+            }}>
               <FaFire /> Our Testimonials
             </Button>
           </div>
