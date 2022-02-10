@@ -6,6 +6,7 @@ import CommunityStories from "./pages/CommunityStories";
 import MLHLocalHackDayBuild2022 from "./pages/Hackathons/MLHLocalHackDayBuild2022";
 import Landing from "./pages/Landing";
 import PreviousHackathons from "./pages/PreviousHackathons";
+import Testimonials from "./pages/Testimonials";
 
 export default function App() {
   return (
@@ -30,6 +31,10 @@ export default function App() {
 
           {/* Previous Hackathons Page */}
           <Route path="/previous-hackathons" element={<PreviousHackathons />} />
+
+          {/* Testimonials Page */}
+          <Route path="/testimonials" element={<Testimonials />} />
+
         </Routes>
         <Footer />
       </div>
