@@ -8,6 +8,8 @@ import Landing from "./pages/Landing";
 import PreviousHackathons from "./pages/PreviousHackathons";
 import Testimonials from "./pages/Testimonials";
 
+import 'rsuite/styles/index.less';
+
 export default function App() {
   return (
     <div className="app">

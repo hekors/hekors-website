@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../elements/Button";
 
-import "./header-style.css";
 import { FaGithub } from "react-icons/fa";
+import { Dropdown } from "rsuite";
+import DropdownItem from "rsuite/esm/Dropdown/DropdownItem";
+import "./header-style.css";
+import 'rsuite/dist/rsuite.min.css'; 
 
 const HeaderOptionsList = [
   { type: "link", value: "Home", route: "/" },
@@ -55,11 +58,15 @@ export default function Header() {
                                     )
                                 } else if (option.type === 'dropdown') {
                                     return (
-                                        <Dropdown 
-                                            key={index}
-                                            title={option.value}
-                                            options={option.options}
-                                        />
+                                        <Dropdown key={index} title="Featured">
+                                            {option.options.map((_option, _index) => (
+                                                <Link to={_option.route} key={_index}>
+                                                    <DropdownItem>
+                                                        {_option.value}
+                                                    </DropdownItem>
+                                                </Link>
+                                            ))}
+                                        </Dropdown>
                                     )
                                 }
                             })}
@@ -77,61 +84,4 @@ export default function Header() {
             </div>
         </div>
   );
-}
-
-function Dropdown({title, options}) {
-    const [dropdownRef, setDropdown] = useState('none');
-    return (
-        <React.Fragment>
-            <div className="dropdown-wrapper"
-                style={{
-                    background: 'transparent',
-                    width: 'fit-content',
-                    height: 'fit-content',
-                    padding: '0',
-                    margin: '0',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'flex-start',
-                    gap: '0.3rem',
-                    position: 'relative'
-                }}
-            >
-                <Button type="plain" style={{
-                    // boxShadow: 'none',
-                    color: 'var(--h-purple)',
-                    fontWeight: '600',
-                    fontSize: '16px'
-                }}
-                    onClick={() => {
-                        if (dropdownRef === 'none') {
-                            setDropdown('block');
-                        } else {
-                            setDropdown('none');
-                        }
-                    }}
-                >{title}</Button>
-                <div className="dropdown-content-wrapper" style={{
-                    zIndex: '9',
-                    position: 'absolute',
-                    bottom: '-10.2rem',
-                    left: '0',
-                    width: '320px',
-                    display: dropdownRef
-                }}
-                >   
-                    <h4 style={{ marginBottom: '1.2rem' }}>Featured Sections</h4>
-                    <ul className="dropdown-options-list"  style={{ listStyle: 'none', display: 'flex',
-                        flexDirection: 'column', alignItems: 'flex-start', gap: '0.2rem'
-                    }}>
-                        {options.map((option, index) => (
-                            <Link to={option.route} key={index}>
-                                <Button type="plain" className="header-option">{option.value}</Button>
-                            </Link> 
-                        ))}
-                    </ul>
-                </div>
-            </div>
-        </React.Fragment>
-    )
 }

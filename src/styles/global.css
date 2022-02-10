@@ -99,17 +99,6 @@ a:hover {
     border-radius: 5px;
 }
 
-.dropdown-content-wrapper {
-    border-radius: 8px;
-    background-color: white;
-    width: fit-content;
-    height: fit-content;
-    padding: 1.2rem;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.16);
-}
-
 /* media queries for non responsive design */
 div.view-msg {
     display: none;
