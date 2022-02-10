@@ -29,6 +29,7 @@ export default function PreviousHackathons() {
                             coverImage={event.coverImage}
                             link={event.link}
                             organizer={event.organizer}
+                            highlightRoute={event.highlightRoute}
                         />
                     ))}
                 </div>
@@ -37,7 +38,7 @@ export default function PreviousHackathons() {
     )
 }
 
-function PreviousHackathonCard({title, coverImage, link, organizer}) {
+function PreviousHackathonCard({title, coverImage, link, organizer, highlightRoute}) {
     return (
         <div className="previous-hackathon-card on-hover-transition" style={{
             width: 'fit-content',
@@ -75,7 +76,13 @@ function PreviousHackathonCard({title, coverImage, link, organizer}) {
                     gap: '0.4rem'
                 }}>
                     <Button onClick={() => window.open(link)}>Learn more</Button>
-                    <Button type="plain" style={{ color: 'white', backgroundColor: 'black' }}>Highlights</Button>
+                    <Button type="plain" style={{ color: 'white', backgroundColor: 'black' }}
+                        onClick={() => {
+                            let highlightPageLink = 
+                                highlightRoute ? highlightRoute : link;
+                            window.location.href = highlightPageLink;
+                        }}
+                    >Highlights</Button>
                 </div>
             </div>
         </div>

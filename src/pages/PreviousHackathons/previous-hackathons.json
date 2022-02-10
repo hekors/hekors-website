@@ -3,7 +3,8 @@
         "title": "MLH Local Hack Day: Build 2022",
         "organizer": "MLH",
         "link": "https://organize.mlh.io/participants/events/7191-local-hack-day-build-2022",
-        "coverImage": "https://s3.amazonaws.com/assets.mlh.io/events/splashes/000/209/953/thumb/generic_square_%282%29.png?1636561479"
+        "coverImage": "https://s3.amazonaws.com/assets.mlh.io/events/splashes/000/209/953/thumb/generic_square_%282%29.png?1636561479",
+        "highlightRoute": "/mlh-localhackday-build-2022"
     }
 
 ]
