@@ -65,44 +65,8 @@ export default function MLHLocalHackDayBuild2022() {
             }}
         >
             <h4 className="cta-title" style={{ width: '40ch', color: 'var(--h-white)' }}>
-                MLH LHD: Build is here, Get ready
+                The Hackathon is done, hope you've enjoyed it!
             </h4>
-            <div className="cta-buttons-wrapper" 
-                style={{ 
-                    display: 'flex',
-                    flexDirection: 'row',
-                    gap: '1.2rem'
-                }}>
-                <Button
-                  onClick={() => window.open('https://localhackday.mlh.io/build')}
-                >Register for the Hackathon</Button>
-                <span
-                  data-for='hekors-guild-alert'
-                  data-tip=''
-                >
-                  <Button type="plain"
-                    onClick={() => window.open('https://discord.mlh.io')}
-                  >
-                    Join MLH Discord
-                    <ReactTooltip id='hekors-guild-alert'>
-                    <img
-                      src={GuildScreenshot}
-                      alt="developer-image"
-                      style={{
-                        width: "400px",
-                        height: "auto",
-                        borderRadius: "16px",
-                        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
-                      }}
-                    />
-                      <h5>
-                        Don't forget to select HEKORS as a Guild <br />
-                        while joining the server
-                      </h5>
-                    </ReactTooltip>
-                  </Button>
-                </span>
-            </div>
         </div>
 
     </div>
